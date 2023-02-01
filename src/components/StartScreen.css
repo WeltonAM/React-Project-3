@@ -1,0 +1,14 @@
+.start {
+    display: flex;
+    flex-direction: column;
+}
+
+.start button{
+    background: linear-gradient(180deg, #B06AFF, #809BF2);
+    color: gold;
+    transition: transform 100ms cubic-bezier(.45,.97,.68,2.48);
+}
+
+.start button:hover{
+    transform: scale(1.08);
+}
